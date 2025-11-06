@@ -68,7 +68,7 @@ Values near 0 indicate little to no linear relationship (e.g., the near -0.00 co
 -Fire Point Detection and Distribution:
 Under low wind speed (≤2.7 m/s), straw fire points are more widespread and dense across Heilongjiang Province, with large clusters in multiple regions. Under high wind speed (>2.7 m/s), fire points are relatively scattered, and the concentrated areas differ significantly from those under low wind speed. From the perspective of PM2.5 distribution, under low wind speed, high-concentration PM2.5 areas (darker colors) are mainly concentrated in areas with dense fire points, showing a local aggregation trend. Under high wind speed, high-concentration PM2.5 areas are more dispersed, and there is a significant high-concentration cluster in the eastern region, indicating that high wind speed promotes the expansion of the pollution impact range.
 -Environmental Impact: Low wind speed causes smoke to accumulate near the burning area, which is conducive to satellite detection of fire points but leads to a significant increase in local PM2.5 concentration. High wind speed disperses smoke, reducing the satellite's detection rate of fire points, but expands the pollution impact range to a wider area.
-![Comparison Map of Fire Point Distribution under High and Low Wind Speed Conditions in Heilongjiang Province](figures/黑龙江省高低风速影响下火点分布对比图.png)
+![Comparison Map of Fire Point Distribution under High and Low Wind Speed Conditions in Heilongjiang Province](figures/黑龙江省高低风速火点分布对比图.png)
 ![Comparison Map of Wind Speed-Grouped Fire Points and PM2.5 Distribution](figures/风速分组火点与PM2.5分布对比图.png)
 
 (2) Influence of Humidity
@@ -82,10 +82,10 @@ Under low wind speed (≤2.7 m/s), straw fire points are more widespread and den
 4.2 Correlation between Straw Burning and PM2.5 Peaks
 (1) Temporal Correlation
 -Event Matching and Lag: During 2010-2019 (excluding 2017), 68% of straw burning events can be matched with PM2.5 peaks. The average lag time of PM2.5 peaks relative to the start of burning is 3.1 days, indicating that pollutants need a certain period of accumulation to form peaks.
-![PM2.5_Fire Points_FRP Composite Wave Chart (PM2.5 dashed line)](figures/PM2.5_火点_FRP合成波动图（PM25虚线）.png)
+![PM2.5_Fire Points_FRP Composite Wave Chart (PM2.5 dashed line)](figures/PM25_火点_FRP合成波动图（PM25虚线）.png)
 
 -Typical Case (2015): In the typical straw burning event with ID 34 in 2015, the number of straw fire points gradually increased during the burning period, and then the PM2.5 concentration reached a peak (marked by a red pentagram) a few days after the start of burning. During this period, the wind speed was low, which further aggravated the accumulation of PM2.5.
-![Correlation Analysis Between Typical Straw Burning Incidents in 2015 (ID/34) and PM2.5 Peak Levels](figures/2015年典型秸秆焚烧事件（ID/34）与PM2.5峰值关联分析.png)
+![Correlation Analysis Between Typical Straw Burning Incidents in 2015 (ID/34) and PM2.5 Peak Levels](figures/2015年典型秸秆焚烧事件（ID:34）与PM2.5峰值关联分析.png)
 
 (2) Intensity Correlation
 -Fire Point Quantity and PM2.5 Concentration: There is a significant positive correlation between the total number of fire points in a single burning event and the PM2.5 peak concentration (correlation coefficient r=0.72, p<0.01), that is, the higher the burning intensity, the more pollutants are generated, and the higher the PM2.5 concentration peak. It can also be seen from the time series graph of 2010-2019 that the peaks of fire point quantity and FRP (Fire Radiative Power) are consistent with the PM2.5 concentration peak in time.
