@@ -6,7 +6,7 @@ This section focuses on Core Task 1 (Spatio-Temporal Patterns of Fire Activity) 
 
 ## Data Preparation
 ### Preprocessing Workflow
-To ensure consistency and accuracy across analyses, the following preprocessing steps were implemented (refer to Task1.py & Task3.py):
+To ensure consistency and accuracy across analyses, the following preprocessing steps were implemented (refer to [Task1.py](https://github.com/xhe628/5020mini-project/blob/main/Task1.py) & [Task3.py](https://github.com/xhe628/5020mini-project/blob/main/Task3.py)):
 #### Coordinate System Unification: 
 Convert all geospatial data (e.g., county boundaries, fire points) to EPSG:4326 (WGS84)—a universal geographic coordinate system that enables cross-dataset spatial matching.
 #### Time Dimension Extraction: 
