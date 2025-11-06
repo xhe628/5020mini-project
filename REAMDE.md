@@ -107,6 +107,18 @@ For overall long-term trends,we find:
     - Economic activity expansion: The industrialization and urbanization process in Heilongjiang Province has accelerated, leading to an increase in industrial production, construction activities, and urban infrastructure projects. This has resulted in more non-agricultural fire scenarios (such as open flames at construction sites and industrial waste incineration).
     - Weak regulatory system: Non-agricultural fires involve multiple industries and are scattered in various scenarios (such as industry, commerce, and domestic use of fire), making the supervision much more difficult than agricultural straw burning. The existing control measures (such as fire inspections) are unable to cover all areas, causing the number of fires to increase in tandem with economic activities.
     - Human factors combined: Urbanization leads to population concentration, and the management of life-related open flames (such as outdoor barbecues and sacrificial fires) becomes more challenging, further increasing the incidence of non-agricultural fires.
+   
+## Rationale for Analytical Choices
+### Choices for Task 1 (Spatio-Temporal Patterns)
+Dual study area filtering (bounds + admin join): Bounds alone may include non-Heilongjiang areas (e.g., adjacent Inner Mongolia); administrative join ensures 100% provincial accuracy.
+
+High-contrast colors for fire types: Colors like red (maize) and teal (non-agricultural) have strong visual differentiation—critical for identifying spatial clusters (e.g., maize burning concentrated in western Heilongjiang).
+
+## Choices for Task 3 (Long-Term Trends)
+Linear regression for trend slope: Linear regression quantifies direction and magnitude of change (unlike moving averages, which smooth trends). A slope of -1.2, for example, means 1.2 fewer fires per year—actionable for policy evaluation.
+
+Slope thresholds (-0.5 / 0.5): Thresholds are calibrated to 10-year data. A slope of ±0.5 translates to ±5 fires over 10 years—large enough to be a "significant" shift (not noise).
+
 
 
 
