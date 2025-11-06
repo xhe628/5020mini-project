@@ -8,7 +8,9 @@ The study area is Heilongjiang Province, with a time span of 2010–2019 (exclud
 
 
 2. Data Pre-processing
+
 2.1 Datasets Source
+
 (1) Meteorological Data:
 -Wind speed(m/s)-ERA5-Land hourly data from 1950 to present;
 -Relative humidity(%)-Agrometeorological indicators from 1979 to present derived from reanalysis;
@@ -23,6 +25,7 @@ Wei, J., Li, Z. (2024). ChinaHighPM2.5: High-resolution and High-quality Ground-
 (4) Administrative Boundary: CHN_Country.shp (for filtering Heilongjiang Province fire points).
 
 2.2 Preprocessing Workflow
+
 (1) Data Cleaning: 
 Standardized date formats, rounded spatial coordinates (to 0.1°), and removed invalid records (e.g., missing dates, out-of-range humidity).
 
@@ -37,7 +40,9 @@ Calculated temperature inversion intensity (unit: ℃/100m) using the temperatur
 
 
 3. Analysis Methods
+
 3.1 Meteorological Conditions & Straw Burning Analysis
+
 (1) Univariate & Multivariate Analysis: Examined statistical characteristics (mean, median) of key variables and used correlation heatmaps based on Pearson correlation coefficients to quantify relationships between meteorological factors (wind speed, humidity, inversion) and fire metrics (fire count, average FRP). Correlation heatmaps visually and statistically reveal linear relationships (e.g., whether higher humidity correlates with fewer detected fires), laying the foundation for further causal inference. This method is efficient for exploring initial associations in large datasets, which is critical given the 10-year time series and multi-source variables used here.
 Pearson correlation coefficients range from -1 to 1, where:
 Values close to 1 indicate a strong positive linear relationship (e.g., the 0.24 correlation between straw fire count and 2m relative humidity suggests higher humidity is moderately associated with more fire points).
@@ -50,6 +55,7 @@ Values near 0 indicate little to no linear relationship (e.g., the near -0.00 co
 -Split data by wind speed (median split: low vs. high), humidity (median split: low vs. high), and temperature inversion (presence: >0 ℃/100m vs. absence: ≤0).Visualized fire distribution differences across groups using geopandas and matplotlib.
 
 3.2 Straw Burning & PM2.5 Peak Linkage
+
 (1) Event Identification:
 -Defined PM2.5 peak events as ≥75 μg/m³ concentrations over 2 consecutive days (exceeding national standards).The 75 μg/m³ PM2.5 threshold directly references China’s national air quality standard (Grade II, 24-hour average), ensuring relevance to regulatory and public health contexts. Requiring 2 consecutive days excludes transient spikes, isolating meaningful pollution episodes.
 
@@ -63,7 +69,9 @@ Values near 0 indicate little to no linear relationship (e.g., the near -0.00 co
 
 
 4. Key Findings
+
 4.1 Impacts of Meteorological Conditions on Straw Burning
+
 (1) Influence of Wind Speed
 -Fire Point Detection and Distribution:
 Under low wind speed (≤2.7 m/s), straw fire points are more widespread and dense across Heilongjiang Province, with large clusters in multiple regions. Under high wind speed (>2.7 m/s), fire points are relatively scattered, and the concentrated areas differ significantly from those under low wind speed. From the perspective of PM2.5 distribution, under low wind speed, high-concentration PM2.5 areas (darker colors) are mainly concentrated in areas with dense fire points, showing a local aggregation trend. Under high wind speed, high-concentration PM2.5 areas are more dispersed, and there is a significant high-concentration cluster in the eastern region, indicating that high wind speed promotes the expansion of the pollution impact range.
@@ -80,6 +88,7 @@ Under low wind speed (≤2.7 m/s), straw fire points are more widespread and den
 -Environment and Detection: Temperature inversion conditions form a stable atmospheric layer, trapping pollutants near the ground, leading to an increase in local PM2.5 concentration. At the same time, the inversion layer hinders the upward diffusion of smoke, making it difficult for satellites to accurately identify fire points, and the fire point detection rate decreases.
 
 4.2 Correlation between Straw Burning and PM2.5 Peaks
+
 (1) Temporal Correlation
 -Event Matching and Lag: During 2010-2019 (excluding 2017), 68% of straw burning events can be matched with PM2.5 peaks. The average lag time of PM2.5 peaks relative to the start of burning is 3.1 days, indicating that pollutants need a certain period of accumulation to form peaks.
 ![PM2.5_Fire Points_FRP Composite Wave Chart (PM2.5 dashed line)](figures/PM25_火点_FRP合成图.png)
