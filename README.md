@@ -62,25 +62,25 @@ The methodology focuses on county-level trend quantification and provincial-leve
   
 ## Result of Analysis
 ### Monthly Distribution & Seasonal Distribution
-![Heilongjiang fire_seasonal_distribution](https://github.com/xhe628/5020mini-project/blob/main/fire_seasonal_distribution.png)
+![Heilongjiang fire_seasonal_distribution](https://github.com/xhe628/5020mini-project/blob/main/figures/fire_seasonal_distribution.png)
 
 - October is the absolute peak for fires, while months like January, June, July, and December have very few events. This aligns with post-harvest seasons (autumn for corn/wheat) when farmers often burn residues to clear fields.
 - Spring (March–May) and Autumn (September–November) dominate, accounting for 46.0% and 45.7% of total fires respectively. The burning of straw in Spring is mainly due to the fact that farmers need to clear the remaining straw and weeds in the fields before sowing to ensure a smooth planting process and to reduce the impact of pests and diseases on the new crop season. Summer (4.3%) and Winter (4.0%) have minimal fire activity since summer is growing season and winter is too cold for widespread burning.
 
 ### Geographic Distribution of Fires
-![Heilongjiang fire geografhic distribution](https://github.com/xhe628/5020mini-project/blob/main/fire_geographic_distribution.png)
-![Heilongjiang fire density](https://github.com/xhe628/5020mini-project/blob/main/county_fire_density_heatmap.png)
+![Heilongjiang fire geografhic distribution](https://github.com/xhe628/5020mini-project/blob/main/figures/fire_geographic_distribution.png)
+![Heilongjiang fire density](https://github.com/xhe628/5020mini-project/blob/main/figures/county_fire_density_heatmap.png)
 
 - By fire type: Corn straw burning is highly concentrated in northern Heilongjiang, which makes sense since this region is a major corn-producing area. In contrast, non-agricultural fires are much more widespread across the province—no single region dominates.  
 - Hotspot counties: The density heatmap highlights that dark red counties are fire "hotspots" with the highest fire counts. These counties should be prioritized for targeted prevention measures, like increased monitoring during harvest seasons. 
 
 ### Weekly Distribution and Hotspot Weeks 
-![Helilongjiang fire hotsopt weeks ](https://github.com/xhe628/5020mini-project/blob/main/fire_weekly_distribution.png)
+![Helilongjiang fire hotsopt weeks ](https://github.com/xhe628/5020mini-project/blob/main/figures/fire_weekly_distribution.png)
 
 -  there are two distinct clusters of "hotspot weeks" each year—specifically Week 14(around the time of Spring farming season) and Week 43(coincides precisely with the post-harvest dates). These weeks are critical for fire control, as they see over 2,033 fires on average, far above other weeks. 
 
 ### County-level Interannual Trend of Fires (2010–2019) 
-![Heilongjiang County-level_Fire_Trend](https://github.com/xhe628/5020mini-project/blob/main/Heilongjiang_County-level_Fire_Trend_Map.png)
+![Heilongjiang County-level_Fire_Trend](https://github.com/xhe628/5020mini-project/blob/main/figures/Heilongjiang_County-level_Fire_Trend_Map.png)
 
 At the county level:  
 - Corn straw burning: Most counties show a "significant decrease" (marked in green). This suggests that policies targeting corn residue burning—like bans or alternative disposal support—have been effective in reducing such fires.  
@@ -88,7 +88,7 @@ At the county level:
 - Non-agricultural fires: The opposite trend—most counties show a "significant increase" (red). We’ll need further investigation to understand why, but possible factors include more industrial activity or accidental human-caused fires.
 
 ### Overall Trend and Linear Fitting (2010–2019) 
-![Heilongjiang multi typle fire overall trend](https://github.com/xhe628/5020mini-project/blob/main/Heilongjiang_multi_type_fire_overall_trend.png)
+![Heilongjiang multi typle fire overall trend](https://github.com/xhe628/5020mini-project/blob/main/figures/Heilongjiang_County-level_Fire_Trend_Map.png)
 
 For overall long-term trends,we find:
 1. Corn straw burning:
