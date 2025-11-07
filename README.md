@@ -154,8 +154,6 @@ The analysis focuses on three major dimensions: **fire intensity**, **monthly pa
 - **Interpretation Basis:**  
   FRP directly corresponds to combustion energy; thus, higher FRP indicates larger, more destructive fires.  
 
----
-
 #### (2) Monthly Pattern Analysis  
 - **Purpose:** Identify seasonal cycles of agricultural burning vs non-agricultural fire occurrence.  
 - **Method:**  
@@ -164,15 +162,12 @@ The analysis focuses on three major dimensions: **fire intensity**, **monthly pa
   - Visualize via side-by-side bar charts for agricultural vs non-agricultural fires.  
 - **Key Observation Metric:** Peak months correspond to harvest or dry seasons when fire occurrence probability is highest.
   
----
 #### (3) Hourly Distribution Analysis  
 - **Purpose:** Investigate diurnal burning behavior and potential human influence.  
 - **Method:**  
   - Extract the hour from MODIS acquisition times.  
   - Compute and plot normalized hourly frequency for both fire categories.  
   - Interpret concentration windows (e.g., nighttime vs daytime).  
-
----
 
 ## Challenge 1: Fire Radiative Power (FRP) Comparative Analysis  
 
@@ -188,7 +183,7 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
 
 ## Result of Analysis  
 
-### Fire Intensity  
+### 🔥Fire Intensity  
 - **Agricultural Fires:**  
   - Median FRP ≈ **8–9**, indicating **low-intensity, small-scale burns**.  
   - Occasional maize-burning events exhibit higher FRP spikes, but overall remain mild.  
@@ -215,7 +210,7 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
   Temporal fire control policies should prioritize nighttime satellite monitoring and targeted public awareness in rural regions.  
 
 📊 **Figure. FireComparison**  
-![Figure 7: fire comprehensive_analysis](figure/comprehensive_analysis.png)
+![Figure 7: fire comprehensive_analysis](https://github.com/xhe628/5020mini-project/blob/main/figures/Fire characteristic comparison.jpg)
 
 ---
 
@@ -232,7 +227,7 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
 - Non-agricultural fires are **fewer but stronger**, often **accidental or industrial**, causing **greater ecological and atmospheric impact**.  
 
 📊 **Figure. Summary Comparison of Fire Characteristics**  
-![Figure 8: Comparison of Fire FRP](figure/Comparsion of Fire FRP.png)
+![Figure 8: Comparison of Fire FRP](https://github.com/xhe628/5020mini-project/blob/main/figures/Comparison of Fire FRP.png)
 
 ---
 
