@@ -135,7 +135,7 @@ Both tasks extend the prior spatiotemporal analysis to compare **fire characteri
 ### Preprocessing Workflow  
 
 The dataset integrates multi-year MODIS active fire data (2010–2019) with spatial and temporal metadata.  
-To ensure analytical consistency, the following preprocessing pipeline was applied (refer to [`Task4.py`]([https://github.com/xhe628/5020mini-project/blob/main/task4&challange1.ipynb](https://github.com/xhe628/5020mini-project/blob/main/task4%26challenge1.ipynb))):  
+To ensure analytical consistency, the following preprocessing pipeline was applied (refer to [`Task4&challenge1.py`]((https://github.com/xhe628/5020mini-project/blob/main/task4%26challenge1.ipynb))):  
 
 ---
 
