@@ -123,6 +123,9 @@ Slope thresholds (-0.5 / 0.5): Thresholds are calibrated to 10-year data. A slop
 
 
 
+
+
+
 # Core Task 4 & Challenge 1: Comprehensive Comparison and FRP Analysis of Agricultural vs Non-agricultural Fires  
 
 This section focuses on **Core Task 4 (Comprehensive Analysis of Agricultural vs Non-agricultural Fires)** and **Challenge 1 (Fire Radiative Power Analysis)**.  
@@ -210,7 +213,7 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
   Temporal fire control policies should prioritize nighttime satellite monitoring and targeted public awareness in rural regions.  
 
 📊 **Figure. FireComparison**  
-![Figure 7: fire comprehensive_analysis](https://github.com/xhe628/5020mini-project/blob/main/figures/Fire characteristic comparison.jpg)
+![Figure 7: fire comprehensive_analysis](https://github.com/xhe628/5020mini-project/blob/main/figures/comprehensive_analysis.png)
 
 ---
 
@@ -221,6 +224,7 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
 | Wheat | 14.28 | 8.80 | 3.5% |
 | Maize | 17.61 | 8.00 | 3.9% |
 | Non-agricultural Fires | 18.42 | 10.80 | 6.1% |
+(p=0.0000, Cohen's d=-0.063)
 
 **Overall Interpretation:**  
 - **Agricultural fires** are **frequent but low-intensity**, tightly linked to **harvest cycles** and **localized human practices**.  
@@ -231,7 +235,7 @@ These insights support the need for **dual-strategy fire management**:
 2. **Enhanced detection and emergency response** for high-intensity non-agricultural fires.   
 
 📊 **Figure. Summary Comparison of Fire Characteristics**  
-![Figure 8: Comparison of Fire FRP](https://github.com/xhe628/5020mini-project/blob/main/figures/Comparison of Fire FRP.png)
+![Figure 8: Comparison of Fire FRP](https://github.com/xhe628/5020mini-project/blob/main/figures/Comparison%20of%20Fire%20FRP.png)
 
  
 
