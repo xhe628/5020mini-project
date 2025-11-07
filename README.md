@@ -186,8 +186,8 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
 
 ## Result of Analysis  
 
-## Task 4 Results Summary  
-### 🔥Fire Intensity  
+### Task 4 Results Summary  
+#### 🔥Fire Intensity  
 - **Agricultural Fires:**  
   - Median FRP ≈ **8–9**, indicating **low-intensity, small-scale burns**.  
   - Occasional maize-burning events exhibit higher FRP spikes, but overall remain mild.  
@@ -198,13 +198,13 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
   Agricultural fires, while numerous, contribute less to total radiative energy release.  
   Non-agricultural fires, though fewer, release disproportionately high energy, implying greater environmental and economic risk.
 
-### 📆 Monthly Pattern  
+#### 📆 Monthly Pattern  
 - **Agricultural fires:** Concentrated between **July and October**, aligning perfectly with **harvest seasons** and **straw-burning periods**.  
 - **Non-agricultural fires:** Exhibit a **bimodal distribution** — peaks in **spring (March–April)** and **autumn (October)** — reflecting **multiple ignition sources**, including industrial, accidental, and land-clearing fires.  
 - **Implication:**  
   Agricultural fires are **strongly seasonal and policy-sensitive**, while non-agricultural fires reflect **broader socioeconomic and climatic variability**.  
 
-### ⏰ Hourly Distribution  
+#### ⏰ Hourly Distribution  
 - **Agricultural fires:**  
   - Concentrated during **nighttime (2–5 a.m.)**, peaking around **4 a.m.**  
   - Suggests **intentional nighttime burning** behavior to avoid regulation and detection.  
@@ -217,7 +217,7 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
 ![Figure 7: fire comprehensive_analysis](https://github.com/xhe628/5020mini-project/blob/main/figures/Fire%20characteristic%20compariaon.jpg)
 
 
-## Challenge 1 Results Summary  
+### Challenge 1 Results Summary  
 
  p=0.0000, Cohen's d=-0.063
 | Category | Average FRP | Median FRP | High Intensity Ratio |
