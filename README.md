@@ -172,7 +172,7 @@ The analysis focuses on three major dimensions: **fire intensity**, **monthly pa
   - Compute and plot normalized hourly frequency for both fire categories.  
   - Interpret concentration windows (e.g., nighttime vs daytime).  
 
-## Challenge 1: Fire Radiative Power (FRP) Comparative Analysis  
+### Challenge 1: Fire Radiative Power (FRP) Comparative Analysis  
 
 To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variations across agricultural and non-agricultural fires**, aiming to understand their environmental impact and energy characteristics.  
 
@@ -226,18 +226,16 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
 | Non-agricultural Fires | 18.42 | 10.80 | 6.1% |
 (p=0.0000, Cohen's d=-0.063)
 
-**Overall Interpretation:**  
+📊 **Figure. Summary Comparison of Fire Characteristics**  
+![Figure 8: Comparison of Fire FRP](https://github.com/xhe628/5020mini-project/blob/main/figures/Comparison%20of%20Fire%20FRP.png)
+
+ **Overall Interpretation:**  
 - **Agricultural fires** are **frequent but low-intensity**, tightly linked to **harvest cycles** and **localized human practices**.  
 - **Non-agricultural fires** are **sporadic but highly destructive**, reflecting **industrial activity**, **urban expansion**, and **climatic vulnerability**.  
 
 These insights support the need for **dual-strategy fire management**:  
 1. **Preventive education and policy enforcement** in rural agricultural zones.  
 2. **Enhanced detection and emergency response** for high-intensity non-agricultural fires.   
-
-📊 **Figure. Summary Comparison of Fire Characteristics**  
-![Figure 8: Comparison of Fire FRP](https://github.com/xhe628/5020mini-project/blob/main/figures/Comparison%20of%20Fire%20FRP.png)
-
- 
 
 
 
