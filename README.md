@@ -531,7 +531,8 @@ Pearson correlation coefficients range from -1 to 1, where:
 Values close to 1 indicate a strong positive linear relationship (e.g., the 0.24 correlation between straw fire count and 2m relative humidity suggests higher humidity is moderately associated with more fire points).
 Values close to -1 indicate a strong negative linear relationship (e.g., the -0.10 correlation between straw fire count and wind speed implies a weak negative trend—lower wind speed is slightly associated with more fire points).
 Values near 0 indicate little to no linear relationship (e.g., the near -0.00 correlation between straw fire count and temperature inversion intensity means inversion has almost no linear impact on fire detection).
-![Heatmap of Correlation Between Meteorological Variables and Fire Point Characteristics](C:/Users/%E6%AF%9B%E6%AF%9B/Desktop/%E7%A0%94%E7%A9%B6%E7%89%B2/%E4%BD%9C%E4%B8%9A/CNGF5020/GIThub/figures/%E6%B0%94%E8%B1%A1%E5%8F%98%E9%87%8F%E4%B8%8E%E7%81%AB%E7%82%B9%E7%89%B9%E5%BE%81%E7%9B%B8%E5%85%B3%E6%80%A7%E7%83%AD%E5%8A%9B%E5%9B%BE.png)
+![Heatmap of Correlation Between Meteorological Variables and Fire Point Characteristics](figures
+/气象变量与火点特征相关性热力图.png)
 
 (2) Grouped Comparison:
 -Seasonal Trend Analysis: Aggregated data by season to compare seasonal variations in fire count, meteorological conditions, and PM2.5 concentrations.
