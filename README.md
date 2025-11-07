@@ -186,6 +186,7 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
 
 ## Result of Analysis  
 
+## Task 4 Results Summary  
 ### 🔥Fire Intensity  
 - **Agricultural Fires:**  
   - Median FRP ≈ **8–9**, indicating **low-intensity, small-scale burns**.  
@@ -215,7 +216,6 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
 📊 **Figure. Fire Comparison**  
 ![Figure 7: fire comprehensive_analysis](https://github.com/xhe628/5020mini-project/blob/main/figures/Fire%20characteristic%20compariaon.jpg)
 
----
 
 ## Challenge 1 Results Summary  
 
