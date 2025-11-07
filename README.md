@@ -219,12 +219,13 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
 
 ## Challenge 1 Results Summary  
 
+ p=0.0000, Cohen's d=-0.063
 | Category | Average FRP | Median FRP | High Intensity Ratio |
 |-----------|------------|-------------|-----------|
 | Wheat | 14.28 | 8.80 | 3.5% |
 | Maize | 17.61 | 8.00 | 3.9% |
 | Non-agricultural Fires | 18.42 | 10.80 | 6.1% |
-(p=0.0000, Cohen's d=-0.063)
+
 
 📊 **Figure. Summary Comparison of Fire Characteristics**  
 ![Figure 8: Comparison of Fire FRP](https://github.com/xhe628/5020mini-project/blob/main/figures/Comparison%20of%20Fire%20FRP.png)
