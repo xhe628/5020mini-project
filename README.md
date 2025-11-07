@@ -212,8 +212,8 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
 - **Implication:**  
   Temporal fire control policies should prioritize nighttime satellite monitoring and targeted public awareness in rural regions.  
 
-📊 **Figure. FireComparison**  
-![Figure 7: fire comprehensive_analysis](https://github.com/xhe628/5020mini-project/blob/main/figures/comprehensive_analysis.png)
+📊 **Figure. Fire Comparison**  
+![Figure 7: fire comprehensive_analysis](https://github.com/xhe628/5020mini-project/blob/main/figures/Fire%20characteristic%20compariaon.jpg)
 
 ---
 
@@ -228,7 +228,8 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
 
 
 📊 **Figure. Summary Comparison of Fire Characteristics**  
-![Figure 8: Comparison of Fire FRP](https://github.com/xhe628/5020mini-project/blob/main/figures/Comparison%20of%20Fire%20FRP.png)
+![Figure: Comparison of Fire FRP](https://github.com/xhe628/5020mini-project/blob/main/figures/Comparison%20of%20Fire%20FRP.png)
+![Figure: Comparison of Fire FRP](https://github.com/xhe628/5020mini-project/blob/main/figures/FRP%20comparison.jpg)
 
  **Overall Interpretation:**  
 - **Agricultural fires** are **frequent but low-intensity**, tightly linked to **harvest cycles** and **localized human practices**.  
