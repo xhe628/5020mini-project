@@ -259,7 +259,8 @@ yearly_fire_df.to_csv(
 
 The classification of fires is as follows: 
 
-![1762506172607](C:\Users\毛毛\AppData\Roaming\Typora\typora-user-images\1762506172607.png)
+<img width="833" height="246" alt="image" src="https://github.com/user-attachments/assets/ce7e01f1-1849-46f0-a634-655095ae08da" />
+
 
 
 
@@ -267,7 +268,8 @@ The classification of fires is as follows:
 
 ### 2.5 the results for analysis
 
-![1762506250965](C:\Users\毛毛\AppData\Roaming\Typora\typora-user-images\1762506250965.png)
+<img width="1011" height="994" alt="image" src="https://github.com/user-attachments/assets/ca7a3812-c18f-44d1-bf66-8f8b95935311" />
+
 
 Complete code reference: task2.py
 
