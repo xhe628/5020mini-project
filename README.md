@@ -223,23 +223,17 @@ To extend the Task 4 findings, Challenge 1 quantitatively explores **FRP variati
 | Non-agricultural Fires | 18.42 | 10.80 | 6.1% |
 
 **Overall Interpretation:**  
-- Agricultural fires are **many but mild**, linked to human agricultural cycles and management practices.  
-- Non-agricultural fires are **fewer but stronger**, often **accidental or industrial**, causing **greater ecological and atmospheric impact**.  
-
-📊 **Figure. Summary Comparison of Fire Characteristics**  
-![Figure 8: Comparison of Fire FRP](https://github.com/xhe628/5020mini-project/blob/main/figures/Comparison of Fire FRP.png)
-
----
-
-## Conclusion  
-
-This comprehensive comparison demonstrates that:  
 - **Agricultural fires** are **frequent but low-intensity**, tightly linked to **harvest cycles** and **localized human practices**.  
 - **Non-agricultural fires** are **sporadic but highly destructive**, reflecting **industrial activity**, **urban expansion**, and **climatic vulnerability**.  
 
 These insights support the need for **dual-strategy fire management**:  
 1. **Preventive education and policy enforcement** in rural agricultural zones.  
-2. **Enhanced detection and emergency response** for high-intensity non-agricultural fires.  
+2. **Enhanced detection and emergency response** for high-intensity non-agricultural fires.   
+
+📊 **Figure. Summary Comparison of Fire Characteristics**  
+![Figure 8: Comparison of Fire FRP](https://github.com/xhe628/5020mini-project/blob/main/figures/Comparison of Fire FRP.png)
+
+ 
 
 
 
